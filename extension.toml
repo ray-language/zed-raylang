@@ -1,0 +1,15 @@
+id = "raylang"
+name = "raylang"
+version = "0.1.0"
+schema_version = 1
+authors = ["Roberto Ayala <dev@rayala.org>"]
+description = "raylang language support: syntax highlighting, outline and the ray language server"
+repository = "https://github.com/ray-language/zed-raylang"
+
+[language_servers.ray-lsp]
+name = "ray LSP"
+languages = ["raylang"]
+
+[grammars.raylang]
+repository = "https://github.com/ray-language/tree-sitter-raylang"
+rev = "63951855063ea986cfbbdfc07ac625a6dffb778b"
