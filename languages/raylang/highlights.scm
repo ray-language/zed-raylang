@@ -57,6 +57,8 @@
   "const"
   "fn"
   "return"
+  "break"
+  "continue"
   "if"
   "else"
   "match"
@@ -91,3 +93,5 @@
 ["," ";" ":" "."] @punctuation.delimiter
 
 (comment) @comment
+((comment) @comment.doc
+  (#match? @comment.doc "^///"))

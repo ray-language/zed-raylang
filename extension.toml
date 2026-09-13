@@ -1,6 +1,6 @@
 id = "raylang"
 name = "raylang"
-version = "0.1.1"
+version = "0.1.2"
 schema_version = 1
 authors = ["Roberto Ayala <dev@rayala.org>"]
 description = "raylang language support: syntax highlighting, outline and the ray language server"
@@ -12,4 +12,4 @@ languages = ["raylang"]
 
 [grammars.raylang]
 repository = "https://github.com/ray-language/tree-sitter-raylang"
-rev = "b423d4486a6769427ba68cee1d99da7e3182d708"
+rev = "d20f8e710c814db3dfd44cc2220343f94eb5d27d"
